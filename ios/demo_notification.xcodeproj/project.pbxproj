@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -40,9 +41,10 @@
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		9BA1C45B003969F1B4C3C6E2 /* libPods-demo_notification.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD53028497A39414524D487B /* libPods-demo_notification.a */; };
 		A0AA87F41F401D87EA07C97A /* libPods-demo_notification-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B34D56BB92885D3A7692E0 /* libPods-demo_notification-tvOS.a */; };
-		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
-		D4078539218BAC6100547486 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4078538218BAC6100547486 /* GoogleService-Info.plist */; };
 		A9408D0BF59F485CAAD669CD /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B56D6C94CB5E42968731436F /* libRNFirebase.a */; };
+		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		D430D00D2190140C00ED2F80 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D430D00C2190140C00ED2F80 /* MapKit.framework */; };
+		D430D046219020AB00ED2F80 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D430D045219020AA00ED2F80 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -319,6 +321,13 @@
 			remoteGlobalIDString = 358F4ED71D1E81A9004DF814;
 			remoteInfo = RCTBlob;
 		};
+		D430CFB42190083C00ED2F80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69A57C1D9EAF4084A2605E74 /* RNFirebase.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNFirebase;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -351,18 +360,20 @@
 		45B34D56BB92885D3A7692E0 /* libPods-demo_notification-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-demo_notification-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B348882ED3D892EE763FF5C /* libPods-demo_notification-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-demo_notification-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		69A57C1D9EAF4084A2605E74 /* RNFirebase.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNFirebase.xcodeproj; path = "../node_modules/react-native-firebase/ios/RNFirebase.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		7BBF4DD0DBF706733D7B45F6 /* Pods-demo_notification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo_notification.release.xcconfig"; path = "Pods/Target Support Files/Pods-demo_notification/Pods-demo_notification.release.xcconfig"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
+		B56D6C94CB5E42968731436F /* libRNFirebase.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFirebase.a; sourceTree = "<group>"; };
 		CA221C99D55AA91198D161FF /* Pods-demo_notification-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo_notification-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-demo_notification-tvOS/Pods-demo_notification-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		D4078538218BAC6100547486 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D430D00B2190140700ED2F80 /* demo_notification.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = demo_notification.entitlements; path = demo_notification/demo_notification.entitlements; sourceTree = "<group>"; };
+		D430D00C2190140C00ED2F80 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D430D045219020AA00ED2F80 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D705C6139041B94C6AC82236 /* Pods-demo_notification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo_notification.debug.xcconfig"; path = "Pods/Target Support Files/Pods-demo_notification/Pods-demo_notification.debug.xcconfig"; sourceTree = "<group>"; };
 		DD53028497A39414524D487B /* libPods-demo_notification.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-demo_notification.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1C59AEEFC48C33785CE69BB /* Pods-demo_notification-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo_notification-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-demo_notification-tvOS/Pods-demo_notification-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		FDC2A5F07D8C5BF6BBB0097C /* Pods-demo_notificationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo_notificationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-demo_notificationTests/Pods-demo_notificationTests.debug.xcconfig"; sourceTree = "<group>"; };
-		69A57C1D9EAF4084A2605E74 /* RNFirebase.xcodeproj */ = {isa = PBXFileReference; name = "RNFirebase.xcodeproj"; path = "../node_modules/react-native-firebase/ios/RNFirebase.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		B56D6C94CB5E42968731436F /* libRNFirebase.a */ = {isa = PBXFileReference; name = "libRNFirebase.a"; path = "libRNFirebase.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -386,6 +397,7 @@
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
 				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
 				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
+				D430D00D2190140C00ED2F80 /* MapKit.framework in Frameworks */,
 				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
 				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
@@ -506,6 +518,7 @@
 		13B07FAE1A68108700A75B9A /* demo_notification */ = {
 			isa = PBXGroup;
 			children = (
+				D430D00B2190140700ED2F80 /* demo_notification.entitlements */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -543,6 +556,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D430D00C2190140C00ED2F80 /* MapKit.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
 				DD53028497A39414524D487B /* libPods-demo_notification.a */,
 				45B34D56BB92885D3A7692E0 /* libPods-demo_notification-tvOS.a */,
@@ -617,7 +631,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				D4078538218BAC6100547486 /* GoogleService-Info.plist */,
+				D430D045219020AA00ED2F80 /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* demo_notification */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* demo_notificationTests */,
@@ -651,10 +665,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		D430CFB12190083B00ED2F80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D430CFB52190083C00ED2F80 /* libRNFirebase.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D4901EC9218BB01A00E6DE5C /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
-				26CB8DD143F246E49D15F78B /* libRNFirebase.a */,
+				B56D6C94CB5E42968731436F /* libRNFirebase.a */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -752,7 +774,18 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = PL74L7WT9X;
+						DevelopmentTeam = 4LUF3KT72E;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -824,6 +857,10 @@
 				{
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = D430CFB12190083B00ED2F80 /* Products */;
+					ProjectRef = 69A57C1D9EAF4084A2605E74 /* RNFirebase.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -1096,6 +1133,13 @@
 			remoteRef = ADBDB9261DFEBF0700ED6528 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		D430CFB52190083C00ED2F80 /* libRNFirebase.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNFirebase.a;
+			remoteRef = D430CFB42190083C00ED2F80 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -1112,7 +1156,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				D4078539218BAC6100547486 /* GoogleService-Info.plist in Resources */,
+				D430D046219020AB00ED2F80 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1361,9 +1405,10 @@
 			baseConfigurationReference = D705C6139041B94C6AC82236 /* Pods-demo_notification.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = demo_notification/demo_notification.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = PL74L7WT9X;
+				DEVELOPMENT_TEAM = 4LUF3KT72E;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
@@ -1386,8 +1431,9 @@
 			baseConfigurationReference = 7BBF4DD0DBF706733D7B45F6 /* Pods-demo_notification.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = demo_notification/demo_notification.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PL74L7WT9X;
+				DEVELOPMENT_TEAM = 4LUF3KT72E;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
